@@ -185,28 +185,28 @@ export default function SpotifyPlayer({ accessToken: propAccessToken }) {
 
       <div className="mt-4">
         <button
-          className="mt-2 px-4 py-2 bg-green-600 rounded text-white"
+          className="mt-2 mr-2 px-4 py-2 bg-green-600 rounded text-white"
           onClick={playPlaylist}
         >
           Play Playlist
         </button>
 
         <button
-          className="px-4 py-2 bg-blue-600 rounded text-white"
+          className="px-4 mr-2 py-2 bg-blue-600 rounded text-white"
           onClick={togglePlayPause}
         >
           Play / Pause
         </button>
 
         <button
-          className="px-4 py-2 bg-purple-600 rounded text-white"
+          className="px-4 mr-2 py-2 bg-purple-600 rounded text-white"
           onClick={prevTrack}
         >
           Previous
         </button>
 
         <button
-          className="px-4 py-2 bg-purple-600 rounded text-white"
+          className="px-4 mr-2 py-2 bg-purple-600 rounded text-white"
           onClick={nextTrack}
         >
           Next
